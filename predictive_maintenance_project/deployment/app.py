@@ -20,7 +20,7 @@ input_data = {
     'Lub oil pressure': st.number_input("Lub oil pressure", min_value=0, max_value=30, value=3),
     'Fuel pressure': st.number_input("Fuel pressure", min_value=0, max_value=30, value=7),
     'Coolant pressure': st.number_input("Coolant pressure", min_value=0, max_value=30, value=3),
-    'Lub oil temp': st.number_input("Lub oil temp", min_value=0, max_value=150, value=75),
+    'lub oil temp': st.number_input("Lub oil temp", min_value=0, max_value=150, value=75),
     'Coolant temp': st.number_input("Coolant temp", min_value=0, max_value=150, value=80),
 }
 
